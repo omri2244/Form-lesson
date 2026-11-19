@@ -1,0 +1,60 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+
+label {
+    font-weight: 700;
+}
+
+input {
+
+    padding: 5px;
+}
+
+#mainform {
+    width: 500px;
+    height: 600px;
+    background-color: rgb(255, 255, 255);
+    /* border: 0.1px rgb(0, 0, 0) solid; */
+    margin: 50px;
+    margin: auto;
+    padding: 20px;
+    border-radius: 10px;
+    display: grid;
+    box-shadow: 5px 10px 15px rgba(0, 0, 0, 0.3);
+
+}
+
+#namediv {
+    display: flex;
+    gap: 5px;
+    justify-content: space-between;
+
+}
+
+
+#namediv input {
+    width: 49%;
+    display: block;
+}
+
+
+.width100 {
+    width: 100%;
+    display: block;
+}
+
+.heigtinput {
+    height: 40px;
+}
+
+#submit {
+    background-color: blue;
+    color: aliceblue;
+    min-height: 100%;
+}
